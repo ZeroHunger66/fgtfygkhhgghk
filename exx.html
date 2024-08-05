@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        .boxx{
+            height: 200px;
+            width:250px;
+            font-size: 70px;
+            text-align: center;
+            animation-name: slideLeft;
+            animation-duration: 3s;
+            animation-iteration-count: 3;
+        }
+        @keyframes slideLeft{
+            from{transform: translateX(300%)}
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #010a13;
+            padding: 0.5em;
+        }
+        .nav a {
+            color: black;
+            background-color: white;
+            border-radius: 2px;
+            margin: 0 1em;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 2em;
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: black
+        }
+        h2 {
+            color:black;
+        }
+        p {
+            color: #666;
+        }
+        footer {
+            text-align: center;
+            padding: 1em;
+            border-color: #333;
+            background-color: black;
+            color:white;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+    <br>
+<header>
+    <div class="boxx">Welcome! 😄</div>
+    <div class="nav">
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#services">Services</a>
+        <a href="#news">News</a>
+    </div>
+</header>
+
+<body>
+    <img src="imgg.jpg">
+    
+    
+    <div class="container">
+        <h1>DETAILS</h1>
+        <hr>
+        <section id="about">
+            <h2>About Us</h2>
+            <p> Direct HomeSales is your go-to platform for hassle-free home selling. We provide a streamlined, transparent process that ensures you get the best value for your property, fast and with minimal effort.</p>
+        </section>
+        <section id="services">
+            <h2>Services</h2>
+            <p>Effortless Listing
+We take care of listing your property on top platforms, ensuring maximum visibility.</p>
+        </section>
+        
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <p>  Selling my home was a breeze with Direct HomeSales. The process was straightforward and efficient. 
+-Jagan
+Homeowner
+  </p>
+        </section>
+   <section id="contact">
+            <h2>Contact Us</h2>
+            <p> Hyderabad, Telangana 
+📞9999111000 .✉therealestate@gmail.com
+🕘Mon-Fri-08:00-19:00</p>
+        </section>
+        
+    </div>
+    
+<footer>
+    creater: Unanimous<br>
+    &copy; copyright reserved<br>
+    <small><a href="mailto:fake@gmail.com">fake@gmail.com</a></small>
+</footer>
+    
+</body>
+</html>
